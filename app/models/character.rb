@@ -6,7 +6,8 @@ class Character < ActiveRecord::Base
     self.catchphrase
   end
 
-  def build_show
+  def build_show(attributes)
+    
   end
 
 end
